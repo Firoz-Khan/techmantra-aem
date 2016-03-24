@@ -1,6 +1,0 @@
-com/techmantra/core/servlets/SimpleServlet.class
-com/techmantra/core/filters/LoggingFilter.class
-com/techmantra/core/models/HelloWorldModel.class
-com/techmantra/core/schedulers/SimpleScheduledTask.class
-com/techmantra/core/package-info.class
-com/techmantra/core/listeners/SimpleResourceListener.class
