@@ -1,4 +1,0 @@
-tech_mantra.css
-bootstrap.min.css
-googleapis.css
-font-awesome.min.css
