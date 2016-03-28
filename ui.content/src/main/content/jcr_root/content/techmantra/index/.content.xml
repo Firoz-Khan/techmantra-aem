@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2016-03-24T12:04:48.283-04:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/techmantra/templates/techmantra-home"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="TechMantra Homepage"
+        sling:resourceType="techmantra/components/structure/techmantra-home"
+        pageTitle="TechMantra.com - 24x7 IT Support TollFree (855) 234-1000"/>
+</jcr:root>
