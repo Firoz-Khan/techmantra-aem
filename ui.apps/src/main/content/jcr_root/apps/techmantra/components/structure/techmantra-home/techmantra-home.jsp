@@ -11,8 +11,18 @@
 	// TODO add you code here
 %>
 
-<cq:includeClientLib categories="techmantra.topbar"/>
-
-<cq:include path="top-bar" resourceType="techmantra/components/content/techmantra-top-bar" />
-<cq:include path="top-bar" resourceType="techmantra/components/content/techmantra-header" />
-
+<head>
+	<cq:includeClientLib categories="techmantra.clientlibs"/>
+</head>
+<body>
+	<div class="container wrapper">
+		<div class="wrapper_inner">
+			<!-- header start -->
+			<header>
+				<cq:include path="top-bar" resourceType="techmantra/components/content/techmantra-top-bar" />
+				<cq:include path="top-bar" resourceType="techmantra/components/content/techmantra-header" />
+			</header>
+			<cq:include path="top-bar" resourceType="techmantra/components/content/homepage-carousel" />
+		</div>
+	</div>
+</body>

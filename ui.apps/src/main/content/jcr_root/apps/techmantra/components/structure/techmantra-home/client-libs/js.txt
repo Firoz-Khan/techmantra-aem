@@ -1,0 +1,2 @@
+#base=js
+dataTables.bootstrap.jsheader_nav_animation.jsjquery.dataTables.jsjquery.min.jsowl.carousel.jswow.min.js

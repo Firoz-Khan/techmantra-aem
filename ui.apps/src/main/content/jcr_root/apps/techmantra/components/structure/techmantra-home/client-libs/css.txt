@@ -1,4 +1,10 @@
-tech_mantra.css
+#base=css
 bootstrap.min.css
-googleapis.css
+carousel.css
+dataTables.bootstrap.css
 font-awesome.min.css
+googleapis.css
+media_queries.css
+owl.carousel.css
+owl.theme.css
+tech_mantra.css
