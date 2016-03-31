@@ -4,9 +4,9 @@
     <jcr:content
         cq:lastModified="{Date}2016-03-24T12:04:48.283-04:00"
         cq:lastModifiedBy="admin"
-        cq:template="/apps/techmantra/templates/techmantra-home"
+        cq:template="/apps/techmantra/templates/techmantra-home-page"
         jcr:primaryType="cq:PageContent"
         jcr:title="TechMantra Homepage"
-        sling:resourceType="techmantra/components/structure/techmantra-home"
+        sling:resourceType="techmantra/components/structure/techmantra-home-page"
         pageTitle="TechMantra.com - 24x7 IT Support TollFree (855) 234-1000"/>
 </jcr:root>
