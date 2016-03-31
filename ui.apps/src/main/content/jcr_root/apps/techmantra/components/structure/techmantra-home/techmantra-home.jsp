@@ -20,7 +20,7 @@
 			<!-- header start -->
 			<header>
 				<cq:include path="top-bar" resourceType="techmantra/components/content/techmantra-top-bar" />
-				<cq:include path="top-bar" resourceType="techmantra/components/content/techmantra-header" />
+				<cq:include path="top-bar" resourceType="techmantra/components/content/techmantra-navbar" />
 			</header>
 			<cq:include path="top-bar" resourceType="techmantra/components/content/homepage-carousel" />
 		</div>
