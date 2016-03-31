@@ -45,7 +45,7 @@
     font: normal normal 300 16px / 20px "Roboto" !important;
 	}
 	.get_best_in_class {
-    background-image: url(../images/get_best_in_class.png);
+    background-image: url(/tmassets/website/images/get_best_in_class.png);
     background-repeat: no-repeat;
     background-position: -30px center;
     font-size: 16px;}
@@ -116,7 +116,7 @@
     font: normal normal 300 12px / 16px "Roboto" !important;
 	}
 	.get_best_in_class {
-    background-image: url(../images/get_best_in_class.png);
+    background-image: url(/tmassets/website/images/get_best_in_class.png);
     background-repeat: no-repeat;
     background-position: -156px center;
     font-size: 12px;}
@@ -127,11 +127,11 @@
 	.carousel .item{
     	height: 256px !important;
 	}
-	.home_banner ul li:nth-child(1){ list-style-image:url(../images/bullet5.png); font-size:24px;  padding:5px 0px !important;}
-	.home_banner ul li:nth-child(2){ list-style-image:url(../images/bullet6.png); font-size:24px;  padding:5px 0px !important;}
-	.home_banner ul li:nth-child(3){ list-style-image:url(../images/bullet7.png); font-size:24px;  padding:5px 0px !important;}
-	.home_banner ul li:nth-child(4){ list-style-image:url(../images/bullet8.png); font-size:24px;  padding:5px 0px !important;}
-	.home_banner ul li:nth-child(5){ list-style-image:url(../images/bullet9.png); font-size:24px;  padding:5px 0px !important;}
+	.home_banner ul li:nth-child(1){ list-style-image:url(/tmassets/website/images/bullet5.png); font-size:24px;  padding:5px 0px !important;}
+	.home_banner ul li:nth-child(2){ list-style-image:url(/tmassets/website/images/bullet6.png); font-size:24px;  padding:5px 0px !important;}
+	.home_banner ul li:nth-child(3){ list-style-image:url(/tmassets/website/images/bullet7.png); font-size:24px;  padding:5px 0px !important;}
+	.home_banner ul li:nth-child(4){ list-style-image:url(/tmassets/website/images/bullet8.png); font-size:24px;  padding:5px 0px !important;}
+	.home_banner ul li:nth-child(5){ list-style-image:url(/tmassets/website/images/bullet9.png); font-size:24px;  padding:5px 0px !important;}
 	.mycarousel2 .carousel {
     height: 360px !important;
 	}

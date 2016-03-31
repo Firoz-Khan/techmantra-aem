@@ -289,10 +289,10 @@
 
 .home_banner ul{position:relative; left:7%;}
 
-.home_banner ul li:nth-child(1){ list-style-image:url(../images/bullet5.png); font-size:24px;  padding:10px 0px;}
-.home_banner ul li:nth-child(2){ list-style-image:url(../images/bullet6.png); font-size:24px;  padding:10px 0px;}
-.home_banner ul li:nth-child(3){ list-style-image:url(../images/bullet7.png); font-size:24px;  padding:10px 0px;}
-.home_banner ul li:nth-child(4){ list-style-image:url(../images/bullet8.png); font-size:24px;  padding:10px 0px;}
-.home_banner ul li:nth-child(5){ list-style-image:url(../images/bullet9.png); font-size:24px;  padding:10px 0px;}
+.home_banner ul li:nth-child(1){ list-style-image:url(/tmassets/website/images/bullet5.png); font-size:24px;  padding:10px 0px;}
+.home_banner ul li:nth-child(2){ list-style-image:url(/tmassets/website/images/bullet6.png); font-size:24px;  padding:10px 0px;}
+.home_banner ul li:nth-child(3){ list-style-image:url(/tmassets/website/images/bullet7.png); font-size:24px;  padding:10px 0px;}
+.home_banner ul li:nth-child(4){ list-style-image:url(/tmassets/website/images/bullet8.png); font-size:24px;  padding:10px 0px;}
+.home_banner ul li:nth-child(5){ list-style-image:url(/tmassets/website/images/bullet9.png); font-size:24px;  padding:10px 0px;}
 
 .home_banner ul li span{ font-size:20px;}

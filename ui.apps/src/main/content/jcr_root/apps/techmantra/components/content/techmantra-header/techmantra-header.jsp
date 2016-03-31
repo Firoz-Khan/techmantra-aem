@@ -23,7 +23,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     </button>
-                    <a class="remove_height navbar-brand logo" href="/"><img src="/content/dam/techmantra/tech_mantra_logo.png" alt="TechMantra.com" width="200px" height="93px"></a>
+                    <a class="remove_height navbar-brand logo" href="/"><img src="/tmassets/website/images/tech_mantra_logo.png" alt="TechMantra.com" width="200px" height="93px"></a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <div class="env_stag">&nbsp;</div>
