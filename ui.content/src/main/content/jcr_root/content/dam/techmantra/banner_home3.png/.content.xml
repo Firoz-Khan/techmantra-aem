@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:primaryType="dam:Asset">
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="970f208e-2f80-4e61-ab63-12ecaed85333">
     <jcr:content
-        jcr:lastModified="{Date}2016-03-29T11:53:25.264-04:00"
+        cq:name="banner_home3.png"
+        cq:parentPath="/content/dam/techmantra"
+        jcr:lastModified="{Date}2016-03-31T13:07:24.058-04:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
             dam:Comments="Software: Adobe ImageReady&#xa;"
-            dam:extracted="{Date}2016-03-29T11:53:24.242-04:00"
+            dam:extracted="{Date}2016-03-31T13:07:23.288-04:00"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
@@ -21,6 +26,9 @@
             dam:sha1="b50e8fb0888a670d9c417c7140d8401def2452b9"
             dam:size="{Long}582187"
             dc:format="image/png"
+            dc:modified="{Date}2016-03-31T13:07:23.456-04:00"
+            jcr:lastModified="{Date}2016-03-31T13:07:23.456-04:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}427"
