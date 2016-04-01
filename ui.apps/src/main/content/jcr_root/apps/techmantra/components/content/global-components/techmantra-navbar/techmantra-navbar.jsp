@@ -11,7 +11,7 @@
 	// TODO add you code here
 %>
 <!-- navbar-wrapper starts -->
-<div class="navbar-wrapper" style="border: 1px solid green">
+<div class="navbar-wrapper">
         <div class="row">
         <div class="container-fluid">
             <div class="navbar navbar-static-top" id="nav">
@@ -119,7 +119,6 @@
         </div>
     </div>
 </div>
-<br>
 <!-- navbar-wrapper ends -->
 
 

@@ -13,7 +13,7 @@
 
 
 <!--top_bar starts-->
-<div class="top_bar" style="border: 1px solid red">
+<div class="top_bar">
     <div class="space10"></div>
     <div class="col-md-6 col-lg-6 col-sm-6">
         <div class="col-md-7 col-lg-7 col-sm-7">
@@ -52,5 +52,4 @@
     </div>
     <div class="space10"></div>
 </div>
-<br>
 <!--top_bar ends-->

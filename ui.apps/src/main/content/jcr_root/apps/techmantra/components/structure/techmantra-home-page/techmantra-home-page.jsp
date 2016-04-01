@@ -23,6 +23,7 @@
                 <cq:include path="top-bar" resourceType="techmantra/components/content/global-components/techmantra-navbar" />
 			</header>
             <cq:include path="top-bar" resourceType="techmantra/components/content/home-page/homepage-carousel" />
+			<cq:include path="top-bar" resourceType="techmantra/components/content/home-page/homepage-main" />            
             <cq:include path="top-bar" resourceType="techmantra/components/content/global-components/techmantra-footer" />            
 		</div>
 	</div>

@@ -11,7 +11,7 @@
     // TODO add you code here
 %>
 <!-- footer starts -->
-<footer style="border: 1px solid red">
+<footer>
     <div class="space15"></div>
     <div class="footer_content">
         <div class="container-fluid">
