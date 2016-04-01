@@ -10,7 +10,6 @@
 %><%
 	// TODO add you code here
 %>
-<br>
 <!-- header starts -->
 <div class="navbar-wrapper" style="border: 1px solid green">
         <div class="row">
@@ -120,6 +119,7 @@
         </div>
     </div>
 </div>
+<br>
 <!-- header ends -->
 
 
