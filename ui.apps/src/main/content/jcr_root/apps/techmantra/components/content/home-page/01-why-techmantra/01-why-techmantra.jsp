@@ -13,7 +13,7 @@
 
 <!-- 01-why-techmantra starts -->
 <div class="row why_us">
-    <h1 class="text-center-home">WHY TECHMANTRA.COM<sup><sup>™</sup></sup></h1>
+    <h1 class="text-center-home">WHY TECHMANTRA.COM<sup><sup>&trade;</sup></sup></h1>
     <div class="space25"></div>
     <!--24x7 | 365 Days starts-->
     <div class="col-md-4 col-lg-4 col-sm-4">
@@ -101,4 +101,51 @@
     <!--Solutions for All closed-->
     <div class="space20"></div>
 </div>
+
+
+<script>
+    $('.why_content a').click(function(e){
+    	$(".content_why").toggle();
+    });
+    $('.why_content2 a').click(function(e){
+    	$(".content_why2").toggle();
+    });
+    $('.why_content3 a').click(function(e){
+    	$(".content_why3").toggle();
+    });
+    $('.why_content4 a').click(function(e){
+    	$(".content_why4").toggle();
+    });
+    $('.why_content5 a').click(function(e){
+    	$(".content_why5").toggle();
+    });
+    
+    
+    $('.why_content6 a').click(function(e){
+    	$(".content_why6").toggle();
+    });
+    $('.More').click(function(){
+    	var $this = $(this);		
+    	$this.toggleClass('More');
+    	if($this.hasClass('More')){
+    		$this.text('more...');			
+    	} else {
+    		$this.text('Less');
+    	}
+    
+    });
+    
+    /*$('.More_45_days_money_back_promise').click(function(){
+    	var $this = $(this);
+    	$this.toggleClass('More');
+    	if($this.hasClass('More')){
+    		$this.text('more...');			
+    	} else {
+    		$this.text('Less');
+    	}
+    });*/
+    	
+</script>
+
+
 <!-- 01-why-techmantra ends -->

@@ -145,4 +145,92 @@
     <span class="sr-only">Next</span>
     </a>
 </div>
+
+<script>
+
+    $(document).ready(function() {
+      var owl = $("#owl-demo");
+    
+      	owl.owlCarousel({
+    items : 3, 
+        	navigation : true
+      	});
+    
+    /*var owl = $("#owl-demo2");
+    
+      	owl.owlCarousel({
+    items : 6, 
+        	navigation : true,
+    scrollPerPage : true,
+    slideBy: 6,
+    //jumpTo:2,
+    startPosition:2,
+    slideSpeed : 1000,
+    /*afterInit : function(el){
+       el.trigger('owl.jumpTo',3) ///start on 4th position
+    }*/
+      	/*});*/
+    
+    var owl = $("#owl-demo3");
+    
+      	owl.owlCarousel({
+    items : 5, 
+        	navigation : true
+      	});
+
+    var owl = $("#owl-demo4");
+    
+      	owl.owlCarousel({
+    items : 4, 
+        	navigation : true
+      	});
+    
+    var owl = $("#owl-demo6");
+    
+      	owl.owlCarousel({
+    items : 3, 
+        	navigation : true
+      	});
+    
+    var owl = $("#owl-demo7");
+    
+      	owl.owlCarousel({
+    items : 4, 
+        	navigation : true
+      	});
+    /*$("#owl-demo2").owlCarousel({
+
+      navigation : true,
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem : true
+
+      });*/
+
+
+    });
+
+
+    $('#myCarousel').carousel({
+        interval: 10000
+        });
+          $('#myCarousel2').carousel({interval:false});
+        var myInterval=false;
+        $('.target_slide').mouseover(function() {
+        var ctrl = $(this);
+        var interval=300;
+         
+        myInterval = setInterval(function(){
+          ctrl.trigger("click");
+        },interval);
+        });
+        
+              
+        $('.target_slide').mouseout(function(){
+        clearInterval(myInterval);
+        myInterval = false;
+    });
+
+</script>
+
 <!-- myCarousel ends -->

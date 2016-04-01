@@ -20,11 +20,11 @@
 			<!-- header start -->
 			<header>
                 <cq:include path="top-bar" resourceType="techmantra/components/content/global-components/techmantra-top-bar" />
-                <cq:include path="top-bar" resourceType="techmantra/components/content/global-components/techmantra-navbar" />
+                <cq:include path="navbar" resourceType="techmantra/components/content/global-components/techmantra-navbar" />
 			</header>
-            <cq:include path="top-bar" resourceType="techmantra/components/content/home-page/homepage-carousel" />
-			<cq:include path="top-bar" resourceType="techmantra/components/content/home-page/homepage-main" />            
-            <cq:include path="top-bar" resourceType="techmantra/components/content/global-components/techmantra-footer" />            
+            <cq:include path="carousel" resourceType="techmantra/components/content/home-page/homepage-carousel" />
+			<cq:include path="main" resourceType="techmantra/components/content/home-page/homepage-main" />            
+            <cq:include path="footer" resourceType="techmantra/components/content/global-components/techmantra-footer" />
 		</div>
 	</div>
 </body>

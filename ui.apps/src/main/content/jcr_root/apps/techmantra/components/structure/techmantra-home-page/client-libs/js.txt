@@ -3,3 +3,4 @@ header_nav_animation.js
 jquery.dataTables.js
 owl.carousel.js
 wow.min.js
+bootstrap.min.js
