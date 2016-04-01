@@ -10,7 +10,7 @@
 %><%
 	// TODO add you code here
 %>
-<!-- header starts -->
+<!-- navbar-wrapper starts -->
 <div class="navbar-wrapper" style="border: 1px solid green">
         <div class="row">
         <div class="container-fluid">
@@ -120,7 +120,7 @@
     </div>
 </div>
 <br>
-<!-- header ends -->
+<!-- navbar-wrapper ends -->
 
 
 
