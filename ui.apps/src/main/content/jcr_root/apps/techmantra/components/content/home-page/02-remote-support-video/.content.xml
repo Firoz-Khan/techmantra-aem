@@ -3,5 +3,5 @@
     cq:noDecoration="{Boolean}true"
     jcr:description="Remote Support Video Homepage Component"
     jcr:primaryType="cq:Component"
-    jcr:title="Remote Support Video"
-    componentGroup=".hidden"/>
+    jcr:title="02 - Remote Support Video"
+    componentGroup="techmantra"/>

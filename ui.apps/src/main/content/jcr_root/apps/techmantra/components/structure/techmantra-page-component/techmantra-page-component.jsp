@@ -12,6 +12,7 @@
 %>
 
 <head>
+    <cq:include script="head.jsp"/>
 	<cq:includeClientLib categories="techmantra.clientlibs"/>
 </head>
 <body>
@@ -23,8 +24,18 @@
                 <cq:include path="navbar" resourceType="techmantra/components/content/global-components/techmantra-navbar" />
 			</header>
             <!-- header ends -->
-            <cq:include path="carousel" resourceType="techmantra/components/content/home-page/homepage-carousel" />
-			<cq:include path="main" resourceType="techmantra/components/content/home-page/homepage-main" />            
+            <cq:include path="par" resourceType="foundation/components/parsys" />
+            <!--cq:include path="carousel" resourceType="techmantra/components/content/home-page/homepage-carousel" /-->
+
+
+
+            <!-- main starts -->
+            <div class="main">
+                <div class="container-fluid">
+                    <cq:include path="main" resourceType="techmantra/components/content/global-components/techmantra-main" />
+                </div>
+            </div>
+            <!-- main ends -->
             <cq:include path="footer" resourceType="techmantra/components/content/global-components/techmantra-footer" />
 		</div>
 	</div>

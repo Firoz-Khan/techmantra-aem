@@ -3,5 +3,5 @@
     cq:noDecoration="{Boolean}true"
     jcr:description="Core Mantras Homepage Component"
     jcr:primaryType="cq:Component"
-    jcr:title="Core Mantras"
-    componentGroup=".hidden"/>
+    jcr:title="03 - Core Mantras"
+    componentGroup="techmantra"/>

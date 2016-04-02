@@ -3,5 +3,5 @@
     cq:noDecoration="{Boolean}true"
     jcr:description="Skills and Services Homepage Component"
     jcr:primaryType="cq:Component"
-    jcr:title="Skills and Services"
-    componentGroup=".hidden"/>
+    jcr:title="04 - Skills and Services"
+    componentGroup="techmantra"/>

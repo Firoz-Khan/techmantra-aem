@@ -3,5 +3,5 @@
     cq:noDecoration="{Boolean}true"
     jcr:description="Why Techmantra Homepage Component"
     jcr:primaryType="cq:Component"
-    jcr:title="Why Techmantra"
-    componentGroup=".hidden"/>
+    jcr:title="01 - Why Techmantra"
+    componentGroup="techmantra"/>

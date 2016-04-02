@@ -3,5 +3,5 @@
     cq:noDecoration="{Boolean}true"
     jcr:description="Client Testimonials Homepage Component"
     jcr:primaryType="cq:Component"
-    jcr:title="Client Testimonials"
-    componentGroup=".hidden"/>
+    jcr:title="05 - Client Testimonials"
+    componentGroup="techmantra"/>
