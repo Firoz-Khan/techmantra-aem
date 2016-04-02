@@ -7,5 +7,5 @@
     ranking="{Long}100">
     <jcr:content
         jcr:primaryType="cq:PageContent"
-        sling:resourceType="techmantra/components/structure/tm-pcomp-homepage"/>
+        sling:resourceType="techmantra/components/structure/techmantra-page-component"/>
 </jcr:root>

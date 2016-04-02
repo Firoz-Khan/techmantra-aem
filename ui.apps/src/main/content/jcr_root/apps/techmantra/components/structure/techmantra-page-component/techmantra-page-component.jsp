@@ -25,9 +25,6 @@
 			</header>
             <!-- header ends -->
             <cq:include path="par" resourceType="foundation/components/parsys" />
-            <!--cq:include path="carousel" resourceType="techmantra/components/content/home-page/homepage-carousel" /-->
-
-
 
             <!-- main starts -->
             <div class="main">
