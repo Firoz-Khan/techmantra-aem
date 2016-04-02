@@ -1,8 +1,8 @@
 <%--
 
-  Why Techmantra component.
+  hero-banner component.
 
-  Why Techmantra Homepage Component
+  Hero Banner Component
 
 --%><%
 %><%@include file="/libs/foundation/global.jsp"%><%
@@ -11,7 +11,7 @@
     // TODO add you code here
 %>
 
-<!-- contact-us-banner starts -->
+<!-- hero-banner starts -->
 
 <div class="product_banners">
     <!-- Carousel -->
@@ -19,17 +19,16 @@
         <!-- Indicators -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img class="first-slide" src="/tmassets/website/images/contact-us.png" alt="CONTACT US">
+                <img class="first-slide" src="<%=properties.get("bannerImage", "")%>" alt="ABOUT US">
                 <div class="container">
                     <div class="carousel-caption banner_caption">
-                        <h1>CONTACT US</h1>
+                        <h1><%=properties.get("bannerTitle", "")%></h1>
                     </div>
                     <div class="breadcrumb_black">
                         <ol class="breadcrumb">
-                            <li><a href="/">Home</a></li>
-                            <li>Contact Us</li>
+                            <li><%=properties.get("breadCrumb", "")%></li>
                         </ol>
-                    </div>                    
+                    </div>
                 </div>
             </div>
         </div>
@@ -37,4 +36,4 @@
     <!-- /.carousel -->
 </div>
 
-<!-- contact-us-banner ends -->
+<!-- hero-banner ends -->

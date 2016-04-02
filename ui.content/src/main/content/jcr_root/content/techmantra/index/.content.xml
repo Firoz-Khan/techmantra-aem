@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2016-04-01T20:17:33.148-04:00"
+        cq:lastModified="{Date}2016-04-02T02:31:47.571-04:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/techmantra/templates/techmantra-template"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
-        jcr:title="TechMantra Homepage"
-        sling:resourceType="techmantra/components/structure/techmantra-page-component"
-        pageTitle="TechMantra.com - 24x7 IT Support TollFree (855) 234-1000">
+        jcr:title="Techmantra Homepage"
+        jcr:uuid="a075d275-3030-431a-b518-7322da25a58d"
+        sling:resourceType="techmantra/components/structure/techmantra-page-component">
         <par
             jcr:primaryType="nt:unstructured"
             sling:resourceType="foundation/components/parsys">
             <homepage_carousel
-                jcr:created="{Date}2016-04-01T20:16:53.140-04:00"
+                jcr:created="{Date}2016-04-02T02:31:14.386-04:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-04-01T20:16:53.140-04:00"
+                jcr:lastModified="{Date}2016-04-02T02:31:14.386-04:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="techmantra/components/content/home-page/homepage-carousel"/>
@@ -25,37 +27,37 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="foundation/components/parsys">
                 <_01_why_techmantra
-                    jcr:created="{Date}2016-04-01T20:17:12.651-04:00"
+                    jcr:created="{Date}2016-04-02T02:31:25.904-04:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2016-04-01T20:17:12.651-04:00"
+                    jcr:lastModified="{Date}2016-04-02T02:31:25.904-04:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="techmantra/components/content/home-page/01-why-techmantra"/>
                 <_02_remote_support_v
-                    jcr:created="{Date}2016-04-01T20:17:18.300-04:00"
+                    jcr:created="{Date}2016-04-02T02:31:30.152-04:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2016-04-01T20:17:18.300-04:00"
+                    jcr:lastModified="{Date}2016-04-02T02:31:30.152-04:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="techmantra/components/content/home-page/02-remote-support-video"/>
                 <_03_core_mantras
-                    jcr:created="{Date}2016-04-01T20:17:24.202-04:00"
+                    jcr:created="{Date}2016-04-02T02:31:36.847-04:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2016-04-01T20:17:24.202-04:00"
+                    jcr:lastModified="{Date}2016-04-02T02:31:36.847-04:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="techmantra/components/content/home-page/03-core-mantras"/>
                 <_04_skills_and_servi
-                    jcr:created="{Date}2016-04-01T20:17:29.590-04:00"
+                    jcr:created="{Date}2016-04-02T02:31:43.738-04:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2016-04-01T20:17:29.590-04:00"
+                    jcr:lastModified="{Date}2016-04-02T02:31:43.738-04:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="techmantra/components/content/home-page/04-skills-and-services"/>
                 <_05_client_testimoni
-                    jcr:created="{Date}2016-04-01T20:17:33.146-04:00"
+                    jcr:created="{Date}2016-04-02T02:31:47.567-04:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2016-04-01T20:17:33.146-04:00"
+                    jcr:lastModified="{Date}2016-04-02T02:31:47.567-04:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="techmantra/components/content/home-page/05-client-testimonials"/>

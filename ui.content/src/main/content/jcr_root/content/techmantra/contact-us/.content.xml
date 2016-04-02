@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2016-04-01T21:10:24.879-04:00"
+        cq:lastModified="{Date}2016-04-02T03:19:54.209-04:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/techmantra/templates/techmantra-template"
         jcr:primaryType="cq:PageContent"
@@ -13,9 +13,9 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="foundation/components/parsys">
                 <contact_us_main_cont
-                    jcr:created="{Date}2016-04-01T20:56:58.261-04:00"
+                    jcr:created="{Date}2016-04-02T02:44:59.819-04:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2016-04-01T20:56:58.261-04:00"
+                    jcr:lastModified="{Date}2016-04-02T02:44:59.819-04:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="techmantra/components/content/contact-us/contact-us-main-content"/>
@@ -24,13 +24,16 @@
         <par
             jcr:primaryType="nt:unstructured"
             sling:resourceType="foundation/components/parsys">
-            <contact_us_banner
-                jcr:created="{Date}2016-04-01T21:10:24.877-04:00"
+            <hero_banner
+                jcr:created="{Date}2016-04-02T03:17:45.191-04:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2016-04-01T21:10:24.877-04:00"
+                jcr:lastModified="{Date}2016-04-02T03:19:54.207-04:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="techmantra/components/content/contact-us/contact-us-banner"/>
+                sling:resourceType="techmantra/components/content/hero-banner"
+                bannerImage="/content/dam/techmantra/contact-us.png"
+                bannerTitle="Contact Us"
+                breadCrumb="Home > Contact Us"/>
         </par>
     </jcr:content>
 </jcr:root>

@@ -22,7 +22,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     </button>
-                    <a class="remove_height navbar-brand logo" href="/content/techmantra"><img src="/tmassets/website/images/tech_mantra_logo.png" alt="TechMantra.com" width="200px" height="93px"></a>
+                    <a class="remove_height navbar-brand logo" href="/content/techmantra/index.html"><img src="/tmassets/website/images/tech_mantra_logo.png" alt="TechMantra.com" width="200px" height="93px"></a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <div class="env_stag">&nbsp;</div>
@@ -98,7 +98,7 @@
                             <div class="line1"></div>
                         </li>
                         <li>
-                            <a href="/faqs" id="faq" class=" ">FAQS</a>
+                            <a href="/content/techmantra/faqs.html" id="faq" class=" ">FAQS</a>
                             <div class="line2"></div>
                         </li>
                         <li>
@@ -106,11 +106,11 @@
                             <div class="line3"></div>
                         </li>
                         <li>
-                            <a href="/about-us" id="about" class=" ">ABOUT US</a>
+                            <a href="/content/techmantra/about-us.html" id="about" class=" ">ABOUT US</a>
                             <div class="line4"></div>
                         </li>
                         <li>
-                            <a href="/contact-us" id="contact" class=" ">CONTACT US</a>
+                            <a href="/content/techmantra/contact-us.html" id="contact" class=" ">CONTACT US</a>
                             <div class="line5"></div>
                         </li>
                     </ul>

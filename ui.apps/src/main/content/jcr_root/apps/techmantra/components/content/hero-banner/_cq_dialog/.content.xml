@@ -14,11 +14,21 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="granite/ui/components/foundation/container">
                 <items jcr:primaryType="nt:unstructured">
-                    <text
+                    <banner-title
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/foundation/form/textfield"
-                        fieldLabel="Text"
-                        name="./text"/>
+                        fieldLabel="Banner Title"
+                        name="./bannerTitle"/>
+                    <bread-crumb
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                        fieldLabel="Bread Crumb"
+                        name="./breadCrumb"/>
+                    <banner-image
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                        fieldLabel="Banner Image"
+                        name="./bannerImage"/>
                 </items>
             </column>
         </items>
