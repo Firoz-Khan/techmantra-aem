@@ -18,7 +18,7 @@
     <div class="col-md-6 col-lg-6 col-sm-6">
         <div class="col-md-7 col-lg-7 col-sm-7">
             U.S.A. Toll Free 24x7&nbsp; &nbsp; &nbsp;
-            <i class="fa fa-phone"></i>&nbsp; <b>(855) 234-1000</b>
+            <i class="fa fa-phone"></i>&nbsp; <b><%=properties.get("tollFreeNumber", "")%></b>
         </div>
         <div class="col-md-5 col-lg-5 col-sm-5">
             <a href="mailto:info@techmantra.com?subject=General Inquiry"><i class="fa fa-envelope-o"></i> &nbsp;&nbsp;info@techmantra.com</a>

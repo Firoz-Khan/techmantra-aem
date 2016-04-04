@@ -3,7 +3,7 @@
     jcr:description="Techmantra Template"
     jcr:primaryType="cq:Template"
     jcr:title="Techmantra Template"
-    allowedPaths="[/content/techmantra]"
+    allowedPaths="[/content/techmantra(/.*)?]"
     ranking="{Long}100">
     <jcr:content
         jcr:primaryType="cq:PageContent"

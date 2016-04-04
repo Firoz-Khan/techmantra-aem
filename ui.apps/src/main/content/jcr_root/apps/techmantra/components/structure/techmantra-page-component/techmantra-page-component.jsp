@@ -20,7 +20,7 @@
 		<div class="wrapper_inner">
 			<!-- header starts -->
 			<header>
-                <cq:include path="top-bar" resourceType="techmantra/components/content/global-components/techmantra-top-bar" />
+                <cq:include path="ipar" resourceType="foundation/components/iparsys" />
                 <cq:include path="navbar" resourceType="techmantra/components/content/global-components/techmantra-navbar" />
 			</header>
             <!-- header ends -->

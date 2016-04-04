@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Design Dialog for Nav Bar"
+    xtype="panel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <tmlogo
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Select Logo"
+            name="./tmlogo"
+            xtype="pathfield"/>
+    </items>
+</jcr:root>
