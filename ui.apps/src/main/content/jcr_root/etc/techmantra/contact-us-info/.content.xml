@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <contact-us-info
+        jcr:primaryType="nt:unstructured"
+        address1="244 5th Avenue"
+        address2="Suite 2200"
+        city="New York"
+        email_career="careers@techmantra.com"
+        email_general="info@techmantra.com"
+        email_members="support@techmantra.com"
+        email_refunds="refunds@techmantra.com"
+        social_facebook="TechMantraInc"
+        social_google="TechMantraInc"
+        social_linkedin="TechMantraInc"
+        social_twitter="TechMantraInc"
+        social_youtube="TechMantraInc"
+        state="NY"
+        tollfree="(855) 234-1000"
+        zip="10001"/>
+</jcr:root>
