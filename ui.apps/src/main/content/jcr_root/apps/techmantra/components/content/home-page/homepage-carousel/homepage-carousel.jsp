@@ -1,0 +1,251 @@
+<!--
+
+  Homepage Carousel component.
+
+  Techmantra Homepage Carousel
+
+-->
+<%
+%><%@include file="/libs/foundation/global.jsp"%><%
+%><%@page session="false" %><%
+%><%
+	// TODO add you code here
+%>
+
+<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
+<%@ taglib prefix="xss" uri="http://www.adobe.com/consulting/acs-aem-commons/xss" %>
+<%@ taglib prefix="widgets" uri="http://www.adobe.com/consulting/acs-aem-commons/widgets" %>
+<c:set var="slides" value="${widgets:getMultiFieldPanelValues(resource, 'slides')}"/>
+
+<!-- myCarousel starts -->
+<div id="myCarousel" class="carousel slide home_banner" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="3" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="4" class=""></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+		<c:forEach items="${slides}" var="slide" varStatus="loop">
+
+        <!-- BANNER ${loop.index+1} -->
+                <div class="item<c:if test="${loop.first}"> active</c:if>">
+            <img class="first-slide" src="${xss:encodeForHTML(xssAPI, slide['bannerImage'])}" alt="First slide">
+            <div class="container">
+                <div class="carousel-caption banner_caption">
+                    <div class="row">
+                        <div class="col-lg-7 col-md-8 col-sm-8">
+                            <div class="get_best_in_class">${xss:encodeForHTML(xssAPI, slide['ribbonTitle'])}</div>
+                        </div>
+                        <div class="col-lg-5 col-md-4 col-sm-4">
+                            <a href="${xss:encodeForHTML(xssAPI, slide['ribbonLinkUrl'])}" class="btn know_more">${xss:encodeForHTML(xssAPI, slide['ribbonLinkText'])}</a>
+                        </div>
+                    </div>
+                    <h1 class="bannerTextBigBlack">${xss:encodeForHTML(xssAPI, slide['bannerTitle'])}</h1>
+                    <ul>
+                        <li class="bannerTextSmallBlack">${xss:encodeForHTML(xssAPI, slide['bannerBullet1'])}</li>
+                        <li class="bannerTextSmallBlack">${xss:encodeForHTML(xssAPI, slide['bannerBullet2'])}</li>
+                        <li class="bannerTextSmallBlack">${xss:encodeForHTML(xssAPI, slide['bannerBullet3'])}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </c:forEach>
+
+
+        <!-- BANNER 2 -->
+        <!--div class="item">
+            <img class="first-slide" src="/tmassets/website/images/banner_home2.png" alt="Second slide">
+            <div class="container">
+                <div class="carousel-caption banner_caption">
+                    <div class="row">
+                        <div class="col-lg-7 col-md-8 col-sm-8">
+                            <div class="get_best_in_class">BEST IN CLASS SOLUTIONS STARTING FROM $15/MONTH</div>
+                        </div>
+                        <div class="col-lg-5 col-md-4 col-sm-4">
+                            <a href="/home/compare-solutions" class="btn know_more">Learn More</a>
+                        </div>
+                    </div>
+                    <h1 class="bannerTextBigBlack">How it Works? Our Tech Agents Will: </h1>
+                    <ul>
+                        <li class="bannerTextSmallBlack">Remotely connect to your computer</li>
+                        <li class="bannerTextSmallBlack">Analyze the issues</li>
+                        <li class="bannerTextSmallBlack">
+                            Fix the issues<br><br>
+                            ...all this while you just sit back and relax.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div-->
+        <!-- BANNER 3 -->
+        <!--div class="item">
+            <img class="first-slide" src="/tmassets/website/images/banner_home3.png" alt="Second slide">
+            <div class="container">
+                <div class="carousel-caption banner_caption">
+                    <div class="row">
+                        <div class="col-lg-7 col-md-8 col-sm-8">
+                            <div class="get_best_in_class">BEST IN CLASS SOLUTIONS STARTING FROM $15/MONTH</div>
+                        </div>
+                        <div class="col-lg-5 col-md-4 col-sm-4">
+                            <a href="/home/compare-solutions" class="btn know_more">Learn More</a>
+                        </div>
+                    </div>
+                    <h1 class="bannerTextBigWhite">Instant Remote Support</h1>
+                    <ul>
+                        <li class="bannerTextSmallWhite">Any Device</li>
+                        <li class="bannerTextSmallWhite">Any Platform</li>
+                        <li class="bannerTextSmallWhite">Anytime</li>
+                    </ul>
+                </div>
+            </div>
+        </div-->
+        <!-- BANNER 4 -->
+        <!--div class="item">
+            <img class="first-slide" src="/tmassets/website/images/banner_home4.png" alt="Second slide">
+            <div class="container">
+                <div class="carousel-caption banner_caption">
+                    <div class="row">
+                        <div class="col-lg-7 col-md-8 col-sm-8">
+                            <div class="get_best_in_class">BEST IN CLASS SOLUTIONS STARTING FROM $15/MONTH</div>
+                        </div>
+                        <div class="col-lg-5 col-md-4 col-sm-4">
+                            <a href="/home/compare-solutions" class="btn know_more">Learn More</a>
+                        </div>
+                    </div>
+                    <h1 class="bannerTextBigWhite">100% Free Consultation</h1>
+                    <ul>
+                        <li class="bannerTextSmallWhite">Call 24x7 Toll Free: (855) 234-1000</li>
+                        <li class="bannerTextSmallWhite">No card on file!</li>
+                        <li class="bannerTextSmallWhite">No obligation to buy!</li>
+                    </ul>
+                </div>
+            </div>
+        </div-->
+        <!-- BANNER 5 -->
+        <!--div class="item">
+            <img class="first-slide" src="/tmassets/website/images/banner_home5.png" alt="Second slide">
+            <div class="container">
+                <div class="carousel-caption banner_caption">
+                    <div class="row">
+                        <div class="col-lg-7 col-md-8 col-sm-8">
+                            <div class="get_best_in_class">BEST IN CLASS SOLUTIONS STARTING FROM $15/MONTH</div>
+                        </div>
+                        <div class="col-lg-5 col-md-4 col-sm-4">
+                            <a href="/home/compare-solutions" class="btn know_more">Learn More</a>
+                        </div>
+                    </div>
+                    <h1 class="bannerTextBigWhite">100% Satisfaction or 100% Refund. Simple.</h1>
+                    <ul>
+                        <li class="bannerTextSmallWhite">No forms to fill out</li>
+                        <li class="bannerTextSmallWhite">No questions to answer</li>
+                        <li class="bannerTextSmallWhite">
+                            No hoops to jump through <br><br>
+                            ...Simply call us 24x7 Toll Free: (855) 234-1000 and ask for a 100% refund.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div-->
+        <!-- BANNERS END -->
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev" id="why_techmantra">
+    <img src="/tmassets/website/images/left_arrow1.png" alt="Arrow Left">
+    <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <img src="/tmassets/website/images/right_arrow1.png" alt="Arrow Right">
+    <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<script>
+
+    $(document).ready(function() {
+      var owl = $("#owl-demo");
+    
+      	owl.owlCarousel({
+    items : 3, 
+        	navigation : true
+      	});
+    
+    /*var owl = $("#owl-demo2");
+    
+      	owl.owlCarousel({
+    items : 6, 
+        	navigation : true,
+    scrollPerPage : true,
+    slideBy: 6,
+    //jumpTo:2,
+    startPosition:2,
+    slideSpeed : 1000,
+    /*afterInit : function(el){
+       el.trigger('owl.jumpTo',3) ///start on 4th position
+    }*/
+      	/*});*/
+    
+    var owl = $("#owl-demo3");
+    
+      	owl.owlCarousel({
+    items : 5, 
+        	navigation : true
+      	});
+
+    var owl = $("#owl-demo4");
+    
+      	owl.owlCarousel({
+    items : 4, 
+        	navigation : true
+      	});
+    
+    var owl = $("#owl-demo6");
+    
+      	owl.owlCarousel({
+    items : 3, 
+        	navigation : true
+      	});
+    
+    var owl = $("#owl-demo7");
+    
+      	owl.owlCarousel({
+    items : 4, 
+        	navigation : true
+      	});
+    /*$("#owl-demo2").owlCarousel({
+
+      navigation : true,
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem : true
+
+      });*/
+
+
+    });
+
+
+    $('#myCarousel').carousel({
+        interval: 10000
+        });
+          $('#myCarousel2').carousel({interval:false});
+        var myInterval=false;
+        $('.target_slide').mouseover(function() {
+        var ctrl = $(this);
+        var interval=300;
+         
+        myInterval = setInterval(function(){
+          ctrl.trigger("click");
+        },interval);
+        });
+        
+
+        $('.target_slide').mouseout(function(){
+        clearInterval(myInterval);
+        myInterval = false;
+    });
+
+</script>
+
+<!-- myCarousel ends -->

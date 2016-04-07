@@ -1,18 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Dialog"
-    title="Carousel Properties"
-    xtype="panel">
-    <items jcr:primaryType="cq:WidgetCollection">
-        <banner-title
-            jcr:primaryType="cq:Widget"
-            fieldLabel="Banner Title"
-            name="./bannerTitle"
-            xtype="multifield"/>
-        <banner-image
-            jcr:primaryType="cq:Widget"
-            fieldLabel="Banner Image"
-            name="./bannerImage"
-            xtype="pathfield"/>
+    title="test-multi-field"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <tab1
+                jcr:primaryType="cq:Panel"
+                title="Tab 1">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <slides
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Slides"
+                        name="./slides"
+                        xtype="multifield">
+                        <fieldConfig
+                            jcr:primaryType="cq:Widget"
+                            xtype="multifieldpanel">
+                            <items jcr:primaryType="cq:WidgetCollection">
+                                <bannerImage
+                                    jcr:primaryType="cq:Widget"
+                                    fieldLabel="Banner Image"
+                                    key="bannerImage"
+                                    xtype="pathfield"/>
+                                <bannerTitle
+                                    jcr:primaryType="cq:Widget"
+                                    fieldLabel="Banner Title"
+                                    key="bannerTitle"
+                                    xtype="textfield"/>
+                                <ribbonTitle
+                                    jcr:primaryType="cq:Widget"
+                                    fieldLabel="Ribbon Title"
+                                    key="ribbonTitle"
+                                    xtype="textfield"/>
+                                <ribbonLinkText
+                                    jcr:primaryType="cq:Widget"
+                                    fieldLabel="Ribbon Link Text"
+                                    key="ribbonLinkText"
+                                    xtype="textfield"/>
+                                <ribbonLinkUrl
+                                    jcr:primaryType="cq:Widget"
+                                    fieldLabel="Ribbon Link Url"
+                                    key="ribbonLinkUrl"
+                                    xtype="pathfield"/>
+                                <bannerBullet1
+                                    jcr:primaryType="cq:Widget"
+                                    fieldLabel="Banner Bullet 1"
+                                    key="bannerBullet1"
+                                    xtype="textfield"/>
+                                <bannerBullet2
+                                    jcr:primaryType="cq:Widget"
+                                    fieldLabel="Banner Bullet 2"
+                                    key="bannerBullet2"
+                                    xtype="textfield"/>
+                                <bannerBullet3
+                                    jcr:primaryType="cq:Widget"
+                                    fieldLabel="Banner Bullet 3"
+                                    key="bannerBullet3"
+                                    xtype="textfield"/>
+                            </items>
+                        </fieldConfig>
+                    </slides>
+                </items>
+            </tab1>
+        </items>
     </items>
 </jcr:root>

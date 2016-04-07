@@ -7,14 +7,14 @@
     <jcr:content
         cq:name="asset.jpg"
         cq:parentPath="/content/dam/techmantra"
-        jcr:lastModified="{Date}2016-03-31T13:07:24.583-04:00"
+        jcr:lastModified="{Date}2016-04-04T12:21:26.411-04:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
             dam:ColorSpace="{Long}-1"
             dam:ExifOffset="{Long}232"
-            dam:extracted="{Date}2016-03-31T13:07:24.382-04:00"
+            dam:extracted="{Date}2016-04-04T12:21:25.650-04:00"
             dam:Fileformat="JPEG"
             dam:JpgFromRawLength="{Long}988"
             dam:JpgFromRawStart="{Long}382"
@@ -39,7 +39,7 @@
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             photoshop:ColorMode="{Long}3"
-            tiff:BitsPerSample="\[S@47840ae5"
+            tiff:BitsPerSample="\[S@132a8643"
             tiff:Compression="{Long}6"
             tiff:ImageLength="{Long}51"
             tiff:ImageWidth="{Long}940"
