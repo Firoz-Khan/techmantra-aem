@@ -2,11 +2,11 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2016-04-07T02:29:45.859-04:00"
+        cq:lastModified="{Date}2016-04-06T23:15:08.161-04:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/techmantra/templates/techmantra-template"
         jcr:primaryType="cq:PageContent"
-        jcr:title="FAQs"
+        jcr:title="Techmantra FAQs"
         sling:resourceType="techmantra/components/structure/techmantra-page-component">
         <par
             jcr:primaryType="nt:unstructured"
@@ -38,10 +38,5 @@
         <ipar
             jcr:primaryType="nt:unstructured"
             sling:resourceType="foundation/components/iparsys"/>
-        <image
-            jcr:lastModified="{Date}2016-04-06T23:27:36.972-04:00"
-            jcr:lastModifiedBy="admin"
-            jcr:primaryType="nt:unstructured"
-            imageRotate="0"/>
     </jcr:content>
 </jcr:root>

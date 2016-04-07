@@ -7,9 +7,16 @@
 --%><%
 %><%@include file="/libs/foundation/global.jsp"%><%
 %><%@page session="false" %><%
-%><%
-	// TODO add you code here
-%>
+%><%@ page import="java.util.Iterator,
+        com.day.text.Text,
+        com.day.cq.wcm.api.PageFilter,
+        com.day.cq.wcm.api.Page,
+        com.day.cq.commons.Doctype" %>
+
+
+
+
+
 <!-- navbar-wrapper starts -->
 <div class="navbar-wrapper">
         <div class="row">
@@ -27,6 +34,36 @@
                 <div id="navbar" class="navbar-collapse collapse">
                     <div class="env_stag">&nbsp;</div>
                     <ul class="nav navbar-nav navigation" id="top-custom-navigation">
+
+
+                        <%
+                        
+                            // get starting point of navigation
+                            long absParent = currentStyle.get("absParent", 2L);
+                            String navstart = Text.getAbsoluteParent(currentPage.getPath(), (int) absParent);
+                        
+                            //if not deep enough take current node
+                            if (navstart.equals("")) navstart=currentPage.getPath();
+
+                            Resource rootRes = slingRequest.getResourceResolver().getResource(navstart);
+                            Page rootPage = rootRes == null ? null : rootRes.adaptTo(Page.class);
+                            String xs = Doctype.isXHTML(request) ? "/" : "";
+                            if (rootPage != null) {
+                                Iterator<Page> children = rootPage.listChildren(new PageFilter(request));
+                                while (children.hasNext()) {
+                                    Page child = children.next();
+                                    %>
+                                        <li>
+                                            <a href="<%= xssAPI.getValidHref(child.getPath()) %>.html" id="<%= xssAPI.encodeForHTMLAttr(child.getName()) %>" class=" "><%= xssAPI.encodeForHTMLAttr(child.getTitle()) %></a>
+                                            <div class="line4"></div>
+                                        </li>
+									<%
+                                }
+                            }
+                        %>
+
+						<%--
+
                         <li class="dropdown">
                             <a href="/products/compare-products" id="products" class="dropdown-toggle " data-toggle="dropdown">PRODUCTS</a>
                             <div class="dropdown-menu" id="products-dropdown">
@@ -113,6 +150,9 @@
                             <a href="/content/techmantra/index/contact-us.html" id="contact" class=" ">CONTACT US</a>
                             <div class="line5"></div>
                         </li>
+
+						--%>
+
                     </ul>
                 </div>
             </div>

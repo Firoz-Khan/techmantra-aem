@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Dialog"
     title="Design Dialog for Nav Bar"
     xtype="panel">
@@ -9,5 +9,11 @@
             fieldLabel="Select Logo"
             name="./tmlogo"
             xtype="pathfield"/>
+        <absParent
+            jcr:primaryType="nt:unstructured"
+            fieldDescription="(eg: 1 for /content/site)"
+            fieldLabel="Parent Level (absolute)"
+            name="./absParent"
+            xtype="textfield"/>
     </items>
 </jcr:root>
