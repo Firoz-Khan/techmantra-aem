@@ -421,11 +421,19 @@
                 <version>1.5.11</version>
                 <scope>provided</scope>
             </dependency>
+
             <!-- Apache Sling Dependencies -->
-            <dependency>
+            <!--dependency>
                 <groupId>com.adobe.aem</groupId>
                 <artifactId>aem-api</artifactId>
                 <version>6.0.0.1</version>
+                <scope>provided</scope>
+            </dependency-->
+            <dependency>
+                <groupId>com.adobe.aem</groupId>
+                <artifactId>uber-jar</artifactId>
+                <version>6.1.0</version>
+                <classifier>obfuscated-apis</classifier>
                 <scope>provided</scope>
             </dependency>
             
