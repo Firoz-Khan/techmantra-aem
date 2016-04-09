@@ -1,21 +1,25 @@
 package com.techmantra.core.components;
 
-import org.apache.sling.api.resource.Resource;
-import org.apache.sling.api.resource.ValueMap;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-import com.adobe.cq.sightly.WCMUse;
+import com.adobe.cq.sightly.WCMUsePojo;
 import com.techmantra.core.models.ContactUs;
 import com.techmantra.core.service.ContactUsService;
 
 
-public class ContactUsUse extends WCMUse{
+public class ContactUsUsePojo extends WCMUsePojo {
 
 	private ContactUs contactUs;
 	
+	private static final Logger logger = LoggerFactory.getLogger(ContactUsUsePojo.class);
+	
 	@Override
 	public void activate() throws Exception {
-		
+
 		ContactUsService service = getSlingScriptHelper().getService(ContactUsService.class);
+		logger.info("getSlingScriptHelper() ============ " + getSlingScriptHelper());
+		logger.info("getSlingScriptHelper().getService(ContactUsService.class) ============ " + getSlingScriptHelper().getService(ContactUsService.class));
 		
 		/*Resource dataResource = getResourceResolver().getResource("/etc/techmantra/contact-us-info/contact-us-info");
 		ValueMap properties = dataResource.adaptTo(ValueMap.class);

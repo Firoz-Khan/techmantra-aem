@@ -6,8 +6,8 @@ import org.osgi.service.component.annotations.Component;
 import com.techmantra.core.models.ContactUs;
 import com.techmantra.core.service.ContactUsService;
 
-@Component
-@Service
+@Component(immediate=true)
+@Service(ContactUsService.class) 
 public class ContactUsServiceImpl implements ContactUsService {
 
 	@Override
