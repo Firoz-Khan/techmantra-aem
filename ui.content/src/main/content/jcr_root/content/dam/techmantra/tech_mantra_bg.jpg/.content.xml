@@ -7,7 +7,7 @@
     <jcr:content
         cq:name="tech_mantra_bg.jpg"
         cq:parentPath="/content/dam/techmantra"
-        jcr:lastModified="{Date}2016-04-04T12:21:28.032-04:00"
+        jcr:lastModified="{Date}2016-04-10T12:55:06.885-04:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -26,7 +26,7 @@
             dam:size="{Long}64011"
             dc:format="image/jpeg"
             dc:modified="{Date}2016-03-31T13:07:23.313-04:00"
-            jcr:lastModified="{Date}2016-03-31T13:07:23.313-04:00"
+            jcr:lastModified="{Date}2016-04-10T12:55:05.543-04:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

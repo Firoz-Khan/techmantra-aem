@@ -7,7 +7,7 @@
     <jcr:content
         cq:name="asset.jpg"
         cq:parentPath="/content/dam/techmantra"
-        jcr:lastModified="{Date}2016-04-04T12:21:26.411-04:00"
+        jcr:lastModified="{Date}2016-04-10T12:55:05.862-04:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -34,12 +34,12 @@
             exif:ExifImageWidth="{Long}940"
             exif:PixelXDimension="{Long}72"
             exif:PixelYDimension="{Long}72"
-            jcr:lastModified="{Date}2016-03-31T13:07:23.585-04:00"
+            jcr:lastModified="{Date}2016-04-10T12:55:01.144-04:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             photoshop:ColorMode="{Long}3"
-            tiff:BitsPerSample="\[S@132a8643"
+            tiff:BitsPerSample="\[S@787aa132"
             tiff:Compression="{Long}6"
             tiff:ImageLength="{Long}51"
             tiff:ImageWidth="{Long}940"

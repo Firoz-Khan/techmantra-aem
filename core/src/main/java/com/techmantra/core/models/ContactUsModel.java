@@ -25,7 +25,9 @@ import org.apache.sling.api.resource.ValueMap;
 import org.apache.sling.models.annotations.Default;
 import org.apache.sling.models.annotations.Model;
 import org.apache.sling.settings.SlingSettingsService;
-
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+//Sling Model
 @Model(adaptables=Resource.class)
 public class ContactUsModel {
 
@@ -34,6 +36,11 @@ public class ContactUsModel {
 
     @Inject @Named("sling:resourceType") @Default(values="No resourceType")
     protected String resourceType; //aem provided handle
+    
+	private Logger logger = LoggerFactory.getLogger(ContactUsModel.class);
+	
+    @Inject @Named("city") @Default(values="")
+    protected String city;
     
     private ContactUs contactUs;
     
@@ -46,6 +53,9 @@ public class ContactUsModel {
     @PostConstruct
     protected void init() {
     		/*************got these values from DATABASE*************************/
+    		logger.info("logger: Entered...init()");
+    		logger.info("city = [" + city + "]");
+    	
     		Resource dataResource = resourceResolver.getResource("/etc/techmantra/contact-us-info/contact-us-info");
     		ValueMap properties = dataResource.adaptTo(ValueMap.class);
     		
@@ -55,8 +65,19 @@ public class ContactUsModel {
     		contactUs.setCity(properties.get("city").toString());
     		contactUs.setState(properties.get("state").toString());
     		contactUs.setZip(properties.get("zip").toString());
+    		
+    		contactUs.setTollfree(properties.get("tollfree").toString());
+    		contactUs.setEmail_career(properties.get("email_career").toString());
+    		contactUs.setEmail_general(properties.get("email_general").toString());
+    		contactUs.setEmail_members(properties.get("email_members").toString());
+    		contactUs.setEmail_refunds(properties.get("email_refunds").toString());
+    		contactUs.setSocial_facebook(properties.get("social_facebook").toString());
+    		contactUs.setSocial_google(properties.get("social_google").toString());
+    		contactUs.setSocial_linkedin(properties.get("social_linkedin").toString());
+    		contactUs.setSocial_twitter(properties.get("social_twitter").toString());
+    		contactUs.setSocial_youtube(properties.get("social_youtube").toString());
    	
-    		//setContactUs(contactUsService.getContactUsInfo());
+    		//setContactUs(contactUs);
     		/**************************************/
     }
 
@@ -66,6 +87,14 @@ public class ContactUsModel {
 
 	public void setContactUs(ContactUs contactUs) {
 		this.contactUs = contactUs;
+	}
+
+	public String getCity() {
+		return city;
+	}
+
+	public void setCity(String city) {
+		this.city = city;
 	}
     
 }

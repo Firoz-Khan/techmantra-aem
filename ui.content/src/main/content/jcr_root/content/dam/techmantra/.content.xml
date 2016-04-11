@@ -7,7 +7,6 @@
         <folderThumbnail/>
     </jcr:content>
     <asset.jpg/>
-    <tech_mantra_logo.png/>
     <tech_mantra_bg.jpg/>
     <right_arrow1.png/>
     <left_arrow1.png/>
@@ -68,4 +67,5 @@
     <about-us.png/>
     <experience.png/>
     <faqs.png/>
+    <tech_mantra_logo.png/>
 </jcr:root>
