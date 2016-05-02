@@ -27,7 +27,7 @@ import org.apache.sling.models.annotations.Model;
 import org.apache.sling.settings.SlingSettingsService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-//Sling Model
+// ******************** Sling Model ****************************
 @Model(adaptables=Resource.class)
 public class ContactUsModel {
 

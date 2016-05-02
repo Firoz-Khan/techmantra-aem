@@ -13,6 +13,7 @@ import com.adobe.cq.sightly.WCMUsePojo;
 import com.techmantra.core.models.ContactUs;
 import com.techmantra.core.servlets.ContactUsFormServlet;
 
+//******************** WCMUsePojo ****************************
 
 public class ContactUsUsePojo extends WCMUsePojo {
 
